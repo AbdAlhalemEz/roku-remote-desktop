@@ -1,0 +1,32 @@
+{
+  "name": "roku-remote-desktop",
+  "version": "1.0.0",
+  "description": "Roku remote control desktop app built with Electron",
+  "author": "Your Name",    
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.yourname.roku-remote",
+    "productName": "Roku Remote Desktop",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "dependencies": {
+    "node-ssdp": "4.0.0"
+  },
+  "devDependencies": {
+    "electron": "^28.1.3",
+    "electron-builder": "^24.6.0"
+  }
+}
