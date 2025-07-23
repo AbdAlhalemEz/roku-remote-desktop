@@ -1,2 +1,3 @@
 # roku-remote-desktop
 Roku Remote Desktop  A desktop remote control app for Roku devices on your local network, built with Electron and Node.js.  Control your Roku device remotely via its IP address.  Supports navigation, playback, volume, power, and other essential buttons.  Automatically discover Roku devices on the network or enter the IP manually.  Compact, modern, and user-friendly interface with no window chrome.  Windows installer (.exe) with desktop and Start menu shortcuts using electron-builder.  Uses node-ssdp for Roku device discovery over the network.
+<img width="453" height="660" alt="image" src="https://github.com/user-attachments/assets/7f9ff896-c0be-4cf5-bec8-c3e9c3053677" />
